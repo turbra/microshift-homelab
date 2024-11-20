@@ -10,7 +10,7 @@ metadata:
   name: argocd-server
   namespace: argocd
 spec:
-  host: microshift-argocd-argocd.apps.prox.turbra
+  host: microshift-argocd-argocd.apps.microshift.prox.turbra
   port:
     targetPort: https
   tls:
