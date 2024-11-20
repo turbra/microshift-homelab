@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: 2-services/openshift-console
-    repoURL: https://github.com/benswinney/microshift-homelab.git
+    repoURL: https://github.com/turbra/microshift-homelab.git
     targetRevision: master
   syncPolicy:
     automated:

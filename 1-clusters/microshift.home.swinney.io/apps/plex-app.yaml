@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: 3-apps/plex
-    repoURL: https://github.com/benswinney/microshift-homelab.git
+    repoURL: https://github.com/turbra/microshift-homelab.git
     targetRevision: master
   syncPolicy:
     automated:
