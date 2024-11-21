@@ -12,10 +12,10 @@ metadata:
 spec:
   host: microshift-argocd-argocd.apps.microshift.prox.turbra
   port:
-    targetPort: http  # Matches the port name in the Service definition
+    targetPort: https
   tls:
     insecureEdgeTerminationPolicy: Redirect
-    termination: edge
+    termination: passthrough
   to:
     kind: Service
     name: argocd-server
