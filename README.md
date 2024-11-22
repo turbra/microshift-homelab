@@ -22,3 +22,11 @@
 The OpenShift Console application is included as an example. Deploying this will grant access to the OpenShift web console.
 
 The console doesn't offer the full functionality you might be accustomed to with a complete OpenShift cluster but does provide a user interface for managing Pods, Services, Storage, and more.
+
+#### Update `2-services/openshift/console.yaml` with your `baseDomain:`
+Note: there is no authentication, so only use for test purposes on well-controlled network.
+
+```yaml
+- name: BRIDGE_K8S_MODE_OFF_CLUSTER_ENDPOINT
+  value: https://microshift.prox.turbra:6443
+```

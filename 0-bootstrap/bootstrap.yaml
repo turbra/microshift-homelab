@@ -13,6 +13,8 @@ spec:
     repoURL: https://github.com/turbra/microshift-homelab.git
     targetRevision: master
   syncPolicy:
+    syncOptions:
+    - ServerSideApply=true
     automated:
       prune: true
       selfHeal: true
