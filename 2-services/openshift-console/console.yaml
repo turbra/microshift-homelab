@@ -104,6 +104,7 @@ metadata:
   name: openshift-console
   namespace: kube-system
 spec:
+  host: console-openshift-console.apps.microshift.prox.turbra
   to:
     kind: Service
     name: openshift-console-service
