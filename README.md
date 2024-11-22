@@ -1,4 +1,6 @@
 # Deploy and Configure ArgoCD
+### For how-to deploy Microshift you can use my other [repo](https://github.com/turbra/microshift/).
+---
 #### This will ensure ArgoCD will automatically keep the Microshift cluster in sync with this repository.
 `oc apply -f 0-bootstrap/argocd/setup -n argocd`
 
