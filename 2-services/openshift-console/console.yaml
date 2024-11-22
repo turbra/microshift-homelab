@@ -110,5 +110,5 @@ spec:
     name: openshift-console-service
     weight: 100
   port:
-    targetPort: 9000
+    targetPort: 8080
   wildcardPolicy: None
