@@ -95,7 +95,7 @@ spec:
   selector:
     app: openshift-console
   ports:
-  - port: 80
+  - port: 8080
     targetPort: 9000
 ---
 kind: Route
