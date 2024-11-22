@@ -2,7 +2,6 @@
 #### This will ensure ArgoCD will automatically keep the Microshift cluster in sync with this repository.
 `oc apply -f 0-bootstrap/argocd/setup -n argocd`
 
-
 #### Fetch the route and the admin password that was created as part of the ArgoCD deployment
 `oc get route -n argocd`
 
