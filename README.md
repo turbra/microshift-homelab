@@ -26,7 +26,7 @@ Note: there is no authentication, so only use for test purposes on well-controll
 
 ```yaml
 - name: BRIDGE_K8S_MODE_OFF_CLUSTER_ENDPOINT
-  value: https://microshift.prox.turbra:6443
+  value: https://microshift.example.com:6443
 ```
 
 `oc apply -f 0-bootstrap/bootstrap.yaml`
@@ -35,8 +35,8 @@ Fetch the Console route
 ```bash
 oc get routes -A
 NAMESPACE     NAME                HOST                                                   ADMITTED   SERVICE                     TLS
-argocd        argocd-server       microshift-argocd-argocd.apps.example.com   True       argocd-server
-kube-system   openshift-console   openshift-console-kube-system.apps.example.com         True       openshift-console-service
+argocd        argocd-server       microshift-argocd-argocd.apps.microshift.example.com   True       argocd-server
+kube-system   openshift-console   openshift-console-kube-system.apps.microshift.example.com      True       openshift-console-service
 ```
 Your console should now be accessible via:
 
