@@ -40,4 +40,4 @@ kube-system   openshift-console   openshift-console-kube-system.apps.example.com
 ```
 Your console should now be accessible via:
 
-`https://openshift-console-kube-system.apps.example.com`
+`https://openshift-console-kube-system.apps.microshift.example.com`
